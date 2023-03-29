@@ -6,6 +6,7 @@ config/config.ini - user can change number of header rows and encoding for csv f
 logs/log.log - log file.
 pipenv - folder with venv and all dependencies.
 script - folder with script file.
+temp = folder with temp files.
 
 
 1) Install Python3.9 .
@@ -13,3 +14,8 @@ script - folder with script file.
 3) Run script with "RUN.sh" on Linux or with "RUN.bat" on Windows.
 
 Enjoy it now!
+
+Release 29.03.2023:
+1) user setting "csv-delimiter" was added to config.ini
+2) can use input files from any subfolders.
+3) column with filenames was added to output file.
